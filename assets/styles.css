@@ -1,0 +1,61 @@
+:root {
+  --main-color-1: #cf17f8;
+  --main-color-2: #f4f4f4;
+  --main-color-3: #7e1396;
+  --main-color-4: #0f0420;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--main-color-2);
+    cursor: url("/assets/media/cursor.svg"), auto;
+
+    user-select: none;
+    
+}
+
+body{
+    background-color: var(--main-color-4);
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: var(--main-color-1);
+    height: 60px;
+    padding: 15px;
+    
+}
+#button_navbar{
+    width: 60px;
+    height: 60px;
+    border-radius:20px;
+    border: 0px;
+    background-color: var(--main-color-3);
+    font-size: 20px;
+    cursor: url("/assets/media/cursor2.svg"), auto;
+}
+#container_habilidades{
+    margin: auto;
+    background-color: var(--main-color-1);
+    width: 70%;
+    max-width: 1000px;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.titles1{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom:  30px;
+    text-align: center;
+    height: 70px;
+    background-color: var(--main-color-3);
+    width: 300px;
+}
+img{
+    border-radius: 40px;
+    border: var(--main-color-1) solid 10px;
+    margin: auto;
+    pointer-events: none;
+}
